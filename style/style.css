@@ -125,7 +125,7 @@ background-color: aliceblue;
     transition: all 0.4s;
   }
 .vertical-nav .nav li a {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 600;
     color:white;
     text-decoration: none;
