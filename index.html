@@ -22,17 +22,15 @@
 
 <body class="bg-dark">
   <div class="noise-filter"></div>
-  <header id="header" class="bg-transparent">
-    <div class="vertical-nav bg-transparent " id="sidebar">
+  <header id="header">
+    <div class="vertical-nav bg-dark " id="sidebar">
        <div class="py-4 px-3 mb-2 mt-2">
          <div class="align-items-center " id="half"> 
           <img src="/images/pinky.jpg" alt="profile picture" class="img-fluid rounded-circle my-4 p-1 d-none d-md-block shadow"/>  
             <a class="navbar-brand text-nowrap font-weight-bold" href="#"><h2>SINETHEMBA</h2></a>
          </div>
        </div>
-       <p class="text-gray font-weight-bold text-uppercase px-3 small pb-3 mb-2 mt-3"></p>
-       <ul class="nav flex-column  mb-0">
-        <button id="sidebarCollapse" type="button" class="btn btn-light bg-white rounded-pill px-4 mb-4"><i class="fa fa-bars mr-2"></i><small class="text-uppercase font-weight-bolder">Toggle</small></button>  
+       <ul class="nav flex-column  mb-1">  
          <li class="nav-item">
            <a href="#" class="nav-link text-light">
              <i class="fa fa-home"></i>Home
@@ -200,11 +198,10 @@
   </div>
   
 </section>
-
-<section  class="Skills">
-  <div>
-    <span class="content"></span>
-  </div>
+<div>
+  <span class="content"></span>
+</div> 
+<section  class="Skills">  
   <div class="page-content p-5" id="content">
     <h1 class="text-center my-5 text-white">
       <span>S</span><span>k</span><span>i</span><span>l</span><span>l</span><span>s</span><span>&nbsp;</span><span>
@@ -384,7 +381,7 @@
           <div class="testimonials-img">
             <img
               class="crop"
-              src="./images/Philani (3).JPG"
+              src="./images/joel2.jpg"
               alt="testimonials"
             />
             <div class="testimonials-date">05-2022</div>
@@ -454,9 +451,31 @@
         aria-expanded="false" aria-controls="collapseExample" style="font-weight: bold;">
         View more testimonials
       </button>
+      <div class="testimonials-item padd-15">
+        <div class="testimonials-item-inner shadow-dark">
+          <div class="testimonials-img">
+            <img
+              class="crop"
+              src="./images/Silizwe (1).JPG"
+              alt="testimonials"
+            />
+            <div class="testimonials-date">05-2022</div>
+          </div>
+          <div class="testimonials-info">
+            <h4 class="testimonials-title">Siliziwe Pani</h4>
+            <h4 class="testimonials-subtitle">
+              Peer
+            </h4>
+            <p class="testimonials-description">
+              Sinethemba Nadeem is extremely observant person
+              and she is very easy to work with, she is naturally gifted in tech space.
+              She is innovative and filled with ideas. 
+            </p>
+          </div>
+        </div>
+      </div>
     </p>
   </div>
- 
     </div>
   </div>
   <hr>
@@ -468,71 +487,91 @@
   <div class="page-content p-5" id="">
       <div class="container my-5">
         <h2 class="text-center my-5">
-          <span>C</span><span>o</span><span>n</span><span>t</span><span>a</span><span>c</span><span>t</span><span>!</span></span><span>&nbsp;</span><span><i
-            class="fas fa-comments"></i></span>
+          <span>C</span><span>o</span><span>n</span><span>t</span><span>a</span><span>c</span><span>t</span><span>!</span></span><span>&nbsp;</span><span>
+         
         </h2>
-        <div class="row  my-5 d-flex justify-content-center">
-          <div class="contact">
-            <div class="left">
-              <div class="heading">Contact Me!</div>
-              <div class="para">use this form</div>
-              <form action="https://formspree.io/f/mqknwbde" method="post">
-              <div class="form" >
-                <div class="field">
-                  <input type="text" name="name" id="name" required>
-                  <label for="name" class="label">Your Name</label>
-                </div>
-                <div class="field">
-                  <input type="email" name="email" id="email" required>
-                  <label for="email" class="label">Your Email</label>
-                </div>
-                <div class="field">
-                  <input type="text" name="phone" id="phone" required>
-                  <label for="text" class="label">subject</label>
-                </div>
-                <div class="field">
-                  <textarea name="msg" id="msg" cols="30" rows="5" required></textarea>
-                  <label for="msg" class="label t_msg">Your Message</label>
-                </div>
-                <button class="btn text-light">Submit <div></div> </button>
+        <div class="contact-us-box" data-aos="zoom-in-up">
+          <div class="row no-gutters">
+              <div class="col-md-6">
+                  <div class="contact-info-box">
+                      <h2>Lets get in touch</h2>
+                      <p class="desc"> In need of a full-stack developer for your next project or a clean and dynamic website tailored for your business needs?
+                        Get in touch with me
+                      </p>
+                      <div class="contact-info">
+                          <a href="" target="_blank"> 
+                              <i class="icon theme-bg ti-direction">
+                                  <img src="https://img.icons8.com/nolan/64/worldwide-location.png" />
+                              </i>
+                          </a>
+                          <p>Belhar 23, Cape Town, 7493.</p>
+                      </div>
+
+                      <div class="contact-info">
+                          <a href="mailto:gracepinkie90@gmail.com.com"> 
+                              <i class="icon theme-bg ti-email">
+                                  <img src="https://img.icons8.com/nolan/64/email-sign.png" />
+                              </i>
+                          </a>
+                          <p>gracepinkie90@gmail.com<br></p>
+                      </div>
+
+                      <div class="contact-info">
+                          <a href="tel:0692239753" target="_blank">
+                              <i class="icon theme-bg ti-mobile">
+                                  <img src="https://img.icons8.com/nolan/64/phone.png" />
+                              </i>
+                          </a>
+                          <p>069 223 9753</p>
+                      </div>
+                      <div class="contact-info">
+                          <a href="https://github.com/Gracepinkie" target="_blank">
+                              <i class="icon theme-bg ti-direction">
+                                  <img src="https://img.icons8.com/nolan/64/github.png" />
+                              </i>
+                          </a>
+                          <p>Github</p>
+                      </div>
+                  </div>
               </div>
-            </form>
-            </div>
-            <div class="right">
-              <div class="right_heading">Contact Information</div>
-              <div class="tabs">
-                <div class="tab1 tab">
-                  <div class="email"><i class="fa fa-at"></i>gracepinkie90@gmail</div>
-                </div>
-                <div class="tab2 tab">
-                  <div class="phone"><i class="fa fa-phone"></i>0692239753</div>
-                </div>
-                <div class="tab3 tab">
-                  <div class="location"><i class="fa fa-home"></i>Cape Town,South Africa</div>
-                </div>
+              <div class="col-md-6">
+                  <!-- Contact Form -->
+                  <div class="contact-form">
+                      <h2>Message me</h2>
+                      <form action="https://formspree.io/f/mqknwbde"method="POST">
+                          <div class="form-group">
+                              <input name="Name" type="text" required placeholder="Name" class="form-control"
+                                  type="text">
+                          </div><br>
+                          <div class="form-group">
+                              <input name="Email" type="email" required placeholder="Email"
+                                  class="form-control" type="email">
+                          </div><br>
+                          <div class="form-group">
+                              <input name="Subject" type="text" required placeholder="Subject"
+                                  class="form-control" type="text">
+                          </div><br>
+                          <div class="form-group">
+                              <textarea name="Message" type="text" required placeholder="Message" rows="3"
+                                  class="form-control"></textarea>
+                          </div><br>
+                          <div class="send">
+                              <button class="btn m-btn m-btn-theme gradient3 ">Send</button>
+                          </div>
+                      </form>
+                  </div>
               </div>
-              <div class="social">
-                <i class="fa fa-facebook"></i>
-                <i class="fa fa-instagram"></i>
-                <i class="fa fa-whatsapp"></i>
-              </div>
-            </div>
           </div>
-        </div>
-        </div>  
+      </div>
+      <br>  
+      </div>  
   </div>
 </section>
  <!-- Footer -->
 
- <footer class="footer sticky-bottom border-top" id="footer" style="background-color: white;">
-  <section>
-      </div>
-      <div class="row d-flex justify-content-center ">
-        <div class="col-md-4">&copy; 2022 Sinethemba Zulu All rights reserved.</div>
-      </div>
-    </div>
-  </section>
-</footer>
+ <section id="footer">
+  <div class="footer">&copyCopyright 2022 Sinethemba Zulu</div>
+</section>
 
  
 
@@ -565,11 +604,10 @@
     'Bootsrap', 'Node.js', 'Ethicalwork',
     'creative', 'MySQL', 'Teamwork',
 ];
-
 var tagCloud = TagCloud('.content', myTags,{
 
   // radius in px
-  radius: 250,
+  radius: 300,
 
   // animation speed
   // slow, normal, fast
@@ -587,7 +625,7 @@ var tagCloud = TagCloud('.content', myTags,{
 });
 
 //To change the color of text randomly
-var colors = ['#FFFAFA', '#F8F8FF', '#F5FFFA', '#FFFFFO', 'FAEBD7', 'FOFFFF'];
+var colors = ['#FFFAFA', '#F8F8FF', '#87CEFA', '#FFFFFO', '#87CEFA', 'FOFFFF'];
 var random_color = colors[Math.floor(Math.random() * colors.length)];
 document.querySelector('.content').style.color = random_color;
         </script>

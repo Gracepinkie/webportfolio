@@ -75,12 +75,12 @@ background-color: aliceblue;
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 .tagcloud {
     font-family: 'Poppins', sans-serif;  
-    font-size: 30px;
-    font-weight: 700;
-    margin-left: 40%;
+    font-size: 25px;
+    font-weight: 650;
+    margin-left: 30%;
 }
 .tagcloud--item:hover {
-    color: whitesmoke;
+    color: #87cefa;
 }
 .noise-filter {
     width: 100vw;
@@ -101,7 +101,7 @@ background-color: aliceblue;
   }
   
 #half{
-    border:2px solid white;
+    border:2px solid #87cefa;
     text-align:center;
     padding-left: 6px;
     padding-right: 6px;
@@ -109,8 +109,8 @@ background-color: aliceblue;
 #half h2{
     font-family:'Dancing Script' , 'Helvetica', sans-serif;
     /*font-weight:800;*/
-    font-size:30px;
-    color: #fff;
+    font-size:15px;
+    color:#fff9f9;
 }
   
 .vertical-nav {
@@ -118,7 +118,7 @@ background-color: aliceblue;
     width: 17rem;
     height: 100vh;
     position: fixed;
-    background-color:#040b14;
+    background-color:;
     top: 0;
     left: 0;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
@@ -127,11 +127,11 @@ background-color: aliceblue;
 .vertical-nav .nav li a {
     font-size: 16px;
     font-weight: 600;
-    color: white;
+    color:white;
     text-decoration: none;
-    line-height: 25px;
+    line-height: 20px;
     display: block;
-    border-bottom: 1px solid;
+    /*border-bottom: 1px solid;*/
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
     text-transform: capitalize;
@@ -284,7 +284,7 @@ body {
 }*/
 
 #Home .container h2 span{
-    color: whitesmoke;
+    color: #87cefa;
 }
 #About{
     height: 100vh;
@@ -947,7 +947,7 @@ p[data-value]:after {
 }
 
   
-.contact{
+/*.contact{
     width: 750px;
     min-width: 750px;
     min-height: 550px;
@@ -1044,7 +1044,7 @@ textarea {
     left: 0;
     bottom: 25px;
     left: -160px;
-}
+}*/
   
 .vertical-nav .nav .btn{
     position: relative;
@@ -1076,6 +1076,7 @@ textarea {
     text-align: center;
     display: flex;   
 }
+/*
 .tabs {
     padding: 30px 20px 0;
 }
@@ -1129,14 +1130,21 @@ textarea {
       padding-right: 10px;
       font-size: 16px;
     }
-}
+}*/
 .footer{
     background-color: #040b14;
+    color: #aaa;
+    margin-left: 17rem;
+    /***padge****/
+    /*width: calc(100% - 17rem);*/
+    text-align: center;
+
 }
 
 
 @media screen and (max-width:1400px){
     
 }
+
 
   
