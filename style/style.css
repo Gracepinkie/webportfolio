@@ -109,7 +109,7 @@ background-color: aliceblue;
 #half h2{
     font-family:'Dancing Script' , 'Helvetica', sans-serif;
     /*font-weight:800;*/
-    font-size:15px;
+    font-size:16px;
     color:#fff9f9;
 }
   
@@ -125,7 +125,7 @@ background-color: aliceblue;
     transition: all 0.4s;
   }
 .vertical-nav .nav li a {
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 600;
     color:white;
     text-decoration: none;
@@ -765,14 +765,14 @@ p[data-value]:after {
 }
 #contact{
     height: 100vh;
-    margin-left: 17rem;
+   /* margin-left: 17rem;
     /***padge****/
     /*width: calc(100% - 17rem);*/
     text-align: center;
     display: flex;  
 }
 
-  
+/*  
 .vertical-nav .nav .btn{
     position: relative;
     cursor: pointer;
@@ -794,7 +794,7 @@ p[data-value]:after {
 .vertical-nav .nav .btn:hover {
     box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
       rgba(198, 20, 20, 0.5) -3px -3px 6px 1px inset;
-}
+}*/
 #Education{
     height: 100vh;
     margin-left: 17rem;
@@ -803,9 +803,7 @@ p[data-value]:after {
     text-align: center;
     display: flex;   
 }
-.btn{
 
-}
 .footer{
     background-color: #040b14;
     color: #aaa;
