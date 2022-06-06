@@ -22,65 +22,23 @@
 
 <body class="bg-dark">
   <div class="noise-filter"></div>
-  <header id="header">
-    <div class="vertical-nav bg-dark " id="sidebar">
-       <div class="py-4 px-3 mb-2 mt-2">
-         <div class="align-items-center " id="half"> 
-          <img src="/images/pinky.jpg" alt="profile picture" class="img-fluid rounded-circle my-4 p-1 d-none d-md-block shadow"/>  
-            <a class="navbar-brand text-nowrap font-weight-bold" href="#"><h2>SINETHEMBA</h2></a>
-         </div>
-       </div>
-       <ul class="nav flex-column  mb-1">  
-         <li class="nav-item">
-           <a href="#" class="nav-link text-light">
-             <i class="fa fa-home"></i>Home
-           </a>  
-         </li>
-         <li class="nav-item">
-           <a href="about" class="nav-link text-light">
-             <i class="fa fa-question-circle"></i>
-             About
-           </a>
-         </li>
-         <li class="nav-item">
-           <a href="education" class="nav-link text-light">
-             <i class="fa fa-user"></i>
-             Education
-           </a>
-         </li>
-         <li class="nav-item">
-          <a href="skills" class="nav-link text-light">
-            <i class="fa fa-user"></i>
-            Skills
-          </a>
-        </li>
-         <li class="nav-item">
-           <a href="" height="object"  class="nav-link text-light">
-             <i class="fa fa-heart"></i>
-           Projects
-           </a>
-         </li>
-         <li class="nav-item">
-           <a href="testimonials" class="nav-link text-light">
-             <i class="fa fa-comments"></i>
-             Testimonials
-           </a>
-         </li>
-         <li class="nav-item">
-           <a href="contacts" class="nav-link text-light">
-             <i class="fa fa-bell"></i>
-             Contact
-           </a>
-         </li>
-       </ul>
-    </div>
- </header>
+  <nav class="navbar">
+    <ul class="navlinks">
+      <a class="navbutton" href="#home">Home</a>
+      <a class="navbutton" href="#about">About</a>
+      <a class="navbutton" href="#education">Education</a>
+      <a class="navbutton" href="#education">Skills</a>
+      <a class="navbutton" href="#projects">Projects</a>
+      <a class="navbutton" href="#testimonial">Testimonial</a>
+      <a class="navbutton" href="#contact">Contacts</a>
+    </ul>
+  </nav>
 
  <!-- Start Page content holder -->
 <section id="Home">
   <div class="page-content p-5" id="content">
       <div class="row text-white justify-content-center align-items-center">
-          <div class="col-lg-7 mx-auto">
+          <div class=" mx-auto">
                   <div class="container">
                     <h1 class="text-center text-light">Sinethemba Zulu</h1>
                     <h2 class="text-center text-light"> Aspiring <span class="typed">Frontend Developer</span> </h2>
@@ -89,10 +47,6 @@
                         <a href="https://github.com/Gracepinkie" target="_blank"><i class="fa fa-github-alt" id="github"></i></a>
                         <a href="https://www.linkedin.com/in/sinethemba-pinky-zulu-291428142/" target="_blank"><i
                                 class="fa fa-linkedin" id="linkedin"></i></a>
-                        <a href="https://api.whatsapp.com/send?phone=+27692239753" target="_blank"><i
-                                class="fa fa-whatsapp" id="whatsapp"></i></a>
-                        <a href="https://app.netlify.com/teams/gracepinkie90/overview?_ga=2.49694628.320456919.1652080865-704160607.1649842729"
-                            target="_blank"><i class="fa fa-twitter" id="twitter"></i></a>
                         <a href="https://codepen.io/gracepinkie" target="_blank"><i
                             class="fa fa-codepen" id="codepen"></i></a>   
                     </div>
@@ -101,7 +55,7 @@
       </div>    
   </div>
 </section>
-<section class="About">
+<section class="about" id="about">
   <div class="page-content p-5" id="content" >
     <div>
       <h1 class="text-center text-white">
@@ -126,7 +80,7 @@
               I am humble and deeply care about others and their well being, I also  prioritise mental health and a good working environment.
           <br>     
           </br>
-              I spend most of my free time  Reading books,I enjoy watching <span class="typed"> futuristic</span>, I also run every morning on weekends and go hiking sometimes.
+              I spend most of my free time  Reading books,I enjoy watching futuristic and time travel movies, I also run on weekends and go hiking sometimes.
               
             </p>
             <div class="info-item padd-15 text-white">
@@ -160,13 +114,14 @@
     </div>
   </div>
 </section>
-<section class="Education">
+<section class="education" id="education">
   <div class="page-content p-5" id="content">
     <h2 class="text-center mb-5 text-white">
       </span><span>&nbsp;</span><span>E</span><span>d</span><span>u</span><span>c</span><span>a</span><span>t</span><span>i</span><span>o</span><span>n</span><span>&nbsp;</span><span
         style="color:white"><i class="fa fa-user"></i></span>
     </h2>
     <!-- Education section -->
+    <div class="row">
     <div class="col-md-6" data-aos="fade-right" data-aos-easing="ease-in-back">
       <h4 style="color: #EA4335;" class="text-center"></h4>
       <div class="container rounded-3 my-5 py-2" style="box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);">
@@ -190,18 +145,17 @@
       <div class="container rounded my-5 py-2" style="box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);">
         <h6><i class="fa fa-calendar text-white"></i> 2012 -
           2016 Matric<strong class="text-white"> Princess Langazana Secondary School</strong></h6>
-        <p class="text-white">I was the best performing learner.i was also debate leader and in the student commitee.
+        <p class="text-white">I was the best performing learner.i was also a debate leader and in the student commitee.
           i did a lot of public speaking and the girl guides scouting movement </p>
       </div>
     </div>
+    <div class="col-sm-6">
+      <span class="content"></span>
+    </div> 
   </div>
-  </div>
-  
+  </div>  
 </section>
-<div>
-  <span class="content"></span>
-</div> 
-<section  class="Skills">  
+<section  class="skills" id="skills">  
   <div class="page-content p-5" id="content">
     <h1 class="text-center my-5 text-white">
       <span>S</span><span>k</span><span>i</span><span>l</span><span>l</span><span>s</span><span>&nbsp;</span><span>
@@ -298,7 +252,7 @@
   </div> 
   </div>   
 </section>
-<section class="Projects">
+<section class="projects" id="projects">
   <div class="page-content p-5" id="content">
     <h2 class="text-center mb-5 text-light">
       </span><span>&nbsp;</span><span>p</span><span>r</span><span>o</span><span>j</span><span>e</span><span>c</span><span>t</span><span>s</span><span>&nbsp;</span><span
@@ -362,7 +316,7 @@
         </div>
       </div>
 </section>
-<section class="testimonials">
+<section class="testimonials" id="testimonials">
 <div class="page-content p-5" id="content">
   <h2 class="text-center my-5 text-light">
     <span>T</span><span>e</span><span>s</span><span>t</span><span>i</span><span>m</span><span>o</span><span>n</span><span>i</span><span>a</span><span>l</span><span>s</span><span>&nbsp;</span><span><i
@@ -457,7 +411,7 @@
               Peer
             </h4>
             <p class="testimonials-description">
-              Sinethemba Nadeem is extremely observant person
+              Zulu is an extremely observant person
               and she is very easy to work with, she is naturally gifted in tech space.
               She is innovative and filled with ideas. 
             </p>
@@ -472,7 +426,7 @@
 </div>
     </div>
 </section>
-<section id="contact">
+<section class="contact" id="contact">
   <div class="page-content p-5" id="">
       <div class="container my-5">
         <h2 class="text-center my-5 text-light">
@@ -484,7 +438,7 @@
               <div class="col-md-6">
                   <div class="contact-info-box text-light">
                       <h2>Lets get in touch</h2>
-                      <p class="desc"> In need of a full-stack developer for your next project or a clean and dynamic website tailored for your business needs?
+                      <p class="desc"> In need of a developer for your next project or a clean and dynamic website tailored for your business needs?
                         Get in touch with me
                       </p>
                       <div class="contact-info text-light">
